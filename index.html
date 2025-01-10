@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Solid State</a></h1>
+						<h1><a href="index.html">Visionary Unity</a></h1>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -31,10 +31,10 @@
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
+								<li><a href="generic.html">About</a></li>
+								<li><a href="elements.html">Services</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">FAQ</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -44,8 +44,10 @@
 					<section id="banner">
 						<div class="inner">
 							<div class="logo"><span class="icon fa-gem"></span></div>
-							<h2>This is Solid State</h2>
-							<p>Another free + fully responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+							<h2>Visionary Unity</h2>
+							<p>Your bridge to authentic connections and measurable results. </p>
+							<ul class="actions special">
+								<li><a href="#contact" class="button primary">Get in Touch</a></li>
 						</div>
 					</section>
 
@@ -57,9 +59,8 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Magna arcu feugiat</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<h2 class="major">Who We Are</h2>
+										<p>At Visionary Unity, we connect brands with he right influencers to create impactful, authentic partnerships. Our goal is to drive growth through tailored campaigns that build trust, credibility, and lasting relationships.</p>
 									</div>
 								</div>
 							</section>
@@ -69,9 +70,15 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Tempus adipiscing</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<h2 class="major">Our Services</h2>
+									<div class="service">
+											<h3>Influencer Brand Partnerships</h3>
+										<p>We create meaningful collaborations between brands and influencers, ensuring the right fit for impactful marketing campaigns.</p>
+									</div>
+									<div class="service">
+											<h3>Tailored Marketing Campaigns</h3>
+											<p>Our team designs personalized marketing strategies that align with both brand goals and influencer audiences to maximize reach and engagement.</p>
+									</div>
 									</div>
 								</div>
 							</section>
@@ -81,9 +88,34 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Nullam dignissim</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<h2 class="major">Contact Us</h2>
+										<p>Interested in collaborating or learing more? Whether you´re a brand or an influencer, we´d love to help you connect and grow. Reach out to us and let´s create something great together!</p>
+
+										<button id="showFormButton" class="button primary">Contact Us</button>
+
+										<div id="contactForm" style="display: none;">
+											<form method="post" action="#">
+												<div class="fields">
+													<div class="field">
+														<label for="name">Name</label>
+														<input type="text" name="name" id="name" />
+													</div>
+													<div class="field">
+														<label for="email">Email</label>
+														<input type="email" name="email" id="email" />
+													</div>
+													<div class="field">
+														<label for="message">Message</label>
+														<textarea name="message" id="message" rows="4"></textarea>
+													</div>
+												</div>
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" /></li>
+												</ul>
+											<scipt> document.getElementById("showFormButton").addEventListener("click", function(){
+												document.getElementById("contactForm").style.display = "block";
+											</scipt>
+											
 									</div>
 								</div>
 							</section>
@@ -129,7 +161,7 @@
 
 				<!-- Footer -->
 					<section id="footer">
-						<div class="inner">
+						<div class="container">
 							<h2 class="major">Get in touch</h2>
 							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
 							<form method="post" action="#">
