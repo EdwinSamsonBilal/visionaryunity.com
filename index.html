@@ -89,7 +89,7 @@
 									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Contact Us</h2>
-										<p>Interested in collaborating or learing more? Whether you´re a brand or an influencer, we´d love to help you connect and grow. Reach out to us and let´s create something great together!</p>
+										<p>Interested in collaborating or learing more? Whether you are a brand or an influencer, we would love to help you connect and grow. Reach out to us and let's create something great together!</p>
 
 										<button id="showFormButton" class="button primary">Contact Us</button>
 
@@ -112,8 +112,12 @@
 												<ul class="actions">
 													<li><input type="submit" value="Send Message" /></li>
 												</ul>
-											<scipt> document.getElementById("showFormButton").addEventListener("click", function(){
-												document.getElementById("contactForm").style.display = "block";
+											<scipt>
+												$(document).ready(function(){
+													$("#showFormButton").click(function(){
+														$("#contactForm").toggle();
+													});
+												});
 											</scipt>
 											
 									</div>
@@ -149,7 +153,7 @@
 						<ul class="contact">
 							<li class="icon solid fa-home">
 								Visionary Unity<br />
-								xxStraße 66, 81373 Munich<br />
+								HeiterwangerStraße 66, 81373 Munich<br />
 								Munich, Germany
 							</li>
 							<li class="icon solid fa-phone">(000) 000-0000</li>
@@ -159,7 +163,7 @@
 							<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Visionary Unity. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</div>
 				</section>
