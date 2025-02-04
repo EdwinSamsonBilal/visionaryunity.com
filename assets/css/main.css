@@ -101,7 +101,7 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../images/banner.jpg");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -2978,7 +2978,7 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
-		@media screen and (max-width: 480px) {
+		/* @media screen and (max-width: 480px) {
 
 			input[type="submit"],
 			input[type="reset"],
@@ -2988,7 +2988,7 @@ input, select, textarea {
 				padding: 0;
 			}
 
-		}
+		} */
 
 /* Features */
 
@@ -3102,6 +3102,11 @@ input, select, textarea {
 
 			#header h1 a {
 				border: 0;
+				display: flex;
+				align-items: center;
+			}
+			#header h1 a img{
+				width: 4em;
 			}
 
 		#header nav {
@@ -3467,7 +3472,7 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../images/banner.jpg");
 				background-size: auto,
  cover;
 				background-position: center,
@@ -3573,13 +3578,20 @@ input, select, textarea {
 			line-height: 2;
 			text-transform: uppercase;
 		}
+		#wrapper > header .inner.privacy-policy p {
+			margin-bottom: 10px;
+		}
+		.inner.privacy-policy.mt-5{
+			padding-top: 130px;
+			padding-bottom: 100px;
+		}
 
 	@media screen and (max-width: 1280px) {
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../images/banner.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
@@ -3610,8 +3622,7 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto,
- 125%;
+			background-size: auto, cover;
 			margin-bottom: -2.5em;
 		}
 
@@ -3988,8 +3999,13 @@ input, select, textarea {
 
 			.wrapper.spotlight .inner {
 				display: block;
+				text-align: center !important;
 			}
 
+			#header h1 a img {
+				width: 3em;
+			}
+			
 			.wrapper.spotlight .image {
 				margin: 0 0 1em 0 !important;
 				max-width: 85%;
@@ -4049,7 +4065,7 @@ input, select, textarea {
 
 			#footer .inner .copyright li {
 				border-left: solid 2px rgba(255, 255, 255, 0.125);
-				color: rgba(255, 255, 255, 0.35);
+				/* color: rgba(255, 255, 255, 0.35); */
 				display: inline-block;
 				font-size: 0.9em;
 				line-height: 1;
@@ -4072,7 +4088,7 @@ input, select, textarea {
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../images/banner.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
