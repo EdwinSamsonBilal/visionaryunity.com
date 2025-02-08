@@ -96,7 +96,7 @@
 										<!-- <button id="showFormButton" class="button primary">Contact Us</button> -->
 										<a href="#footer" class="button primary">Contact Us</a>
 										<!-- <div id="contactForm" style="display: none;">
-											<form method="post" action="#">
+											<form method="post" action="submit.php">
 												<div class="fields">
 													<div class="field">
 														<label for="name">Name</label>
@@ -133,7 +133,7 @@
 						<p>Whether you are a brand looking to collaborate or an influencer eager to connect, we are here to make it happen. 
 							Fill out the form below and we will get back to you as soon as possible.
 						</p>
-						<form id="form" method="post" action="#">
+						<form id="form" method="post" action="submit.php">
 							<div class="fields">
 								<div class="field">
 									<label for="name">Name</label>
@@ -146,6 +146,7 @@
 								<div class="field">
 									<label for="message">Message</label>
 									<textarea name="message" id="message" rows="4"></textarea>
+									<input type="hidden" name="redirect">
 								</div>
 							</div>
 							<ul class="actions">
