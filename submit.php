@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $redirect = $_POST['redirect']; // Get the redirect URL
 
     // Email settings
-    $to = "your-email@example.com";  // Replace with your email address
+    $to = "itstaj7272@gmail.com";  // Replace with your email address
     $subject = "New Contact Form Submission";
     
     // Email content
